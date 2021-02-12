@@ -4,12 +4,11 @@
 
 ### 	:man_technologist: Sobre a aplicação
 
-A Fase 02 do GoStack 9.0 teve como finalidade o dominio do NodeJs, para isso foi desenvolvido uma api que será consumida por uma aplicação web e mobile.
+A Fase 05 do GoStack 9.0 teve como finalidade a criação da aplicação web, frontend, do gobarber, voltado para os prestadores de serviços. A aplicação consumirá a api desenvolvida na fase 02 do bootcamp, que pode ser encontrado nesse [link](https://github.com/mvgoliveira/gobarber_api).
 
 ##### Essa aplicação tem como principais funções:
-- Criação e gestão de perfis de prestadores de serviços e usuário da aplicação.
-- Criação e gestão de agendamentos de serviços.
-- Criação de rotas privadas e públicas.
+- Criação e gestão de perfis de prestadores de serviços da aplicação.
+- Gestão de agendamentos de serviços.
 - Autenticação de usuários com JWT.
 - Conexão com bancos de dados: postgresql, mongoDB e redis.
 - Distribuição de emails aos prestadores de serviço.
