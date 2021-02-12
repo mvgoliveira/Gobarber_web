@@ -19,16 +19,16 @@ A Fase 02 do GoStack 9.0 teve como finalidade o dominio do NodeJs, para isso foi
 
 ```bash
   #  clone o repositório
-  git clone https://github.com/mvgoliveira/gobarber_api
+  git clone https://github.com/mvgoliveira/gobarber_web
 
   #  navegue até o repositório clonado
-  cd gobarber-api
+  cd gobarber_web
 
   #  baixe as dependências
   yarn
 
   #  divirta-se!
-  yarn dev
+  yarn start
 ```
 
 
