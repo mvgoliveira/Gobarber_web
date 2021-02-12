@@ -1,4 +1,4 @@
-# :rocket: Gobarber_backend
+# :rocket: Gobarber_web
  API do gobarber em NodeJs, desenvolvida no Bootcamp GoStack 9.0 da rocketseat
  
 
