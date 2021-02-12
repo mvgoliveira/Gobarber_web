@@ -35,7 +35,7 @@ A Fase 02 do GoStack 9.0 teve como finalidade o dominio do NodeJs, para isso foi
 
 ### **📝 Licença**
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/mvgoliveira/gobarber_api/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/mvgoliveira/gobarber_web/blob/main/LICENSE) para mais detalhes.
 
 
 <hr>
