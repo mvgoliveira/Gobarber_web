@@ -9,10 +9,7 @@ A Fase 05 do GoStack 9.0 teve como finalidade a criação da aplicação web, fr
 ##### Essa aplicação tem como principais funções:
 - Criação e gestão de perfis de prestadores de serviços da aplicação.
 - Gestão de agendamentos de serviços.
-- Autenticação de usuários com JWT.
-- Conexão com bancos de dados: postgresql, mongoDB e redis.
-- Distribuição de emails aos prestadores de serviço.
-
+- Redirecionamento nas rotas da aplicação.
 
 ### 📁 Instalação
 
