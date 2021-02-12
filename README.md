@@ -4,7 +4,7 @@
 
 ### 	:man_technologist: Sobre a aplicação
 
-A Fase 05 do GoStack 9.0 teve como finalidade a criação da aplicação web, frontend, do gobarber, voltado para os prestadores de serviços. A aplicação consumirá a api desenvolvida na fase 02 do bootcamp, que pode ser encontrado nesse [link](https://github.com/mvgoliveira/gobarber_api).
+A Fase 05 do GoStack 9.0 teve como finalidade a criação da aplicação web, frontend, do gobarber, voltado para os prestadores de serviços. A aplicação consumirá a api desenvolvida na fase 02 do bootcamp, que pode ser encontrado [nesse link](https://github.com/mvgoliveira/gobarber_api).
 
 ##### Essa aplicação tem como principais funções:
 - Criação e gestão de perfis de prestadores de serviços da aplicação.
