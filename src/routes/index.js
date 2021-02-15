@@ -21,7 +21,6 @@ function Routes() {
       }, []
    );
 
-
    function getLocationId({ pathname, search, hash }) {
       return pathname + (search ? "?" + search : "") + (hash ? "#" + hash : "");
    }
