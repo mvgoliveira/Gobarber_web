@@ -1,5 +1,5 @@
-import React from 'react';
-import { Switch, withRouter } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Switch, withRouter, useHistory } from 'react-router-dom';
 import Route from './Route';
 
 import SignIn from '../pages/SignIn';
@@ -9,6 +9,23 @@ import Dashboard from '../pages/Dashboard';
 import Profile from '../pages/Profile';
 
 function Routes() {
+
+   const history = useHistory();
+
+   useEffect(
+      () => {
+         history.block((location, action) =>
+            action !== "PUSH" ||
+            getLocationId(location) !== getLocationId(history.location)
+         );
+      }, []
+   );
+
+
+   function getLocationId({ pathname, search, hash }) {
+      return pathname + (search ? "?" + search : "") + (hash ? "#" + hash : "");
+   }
+
    return (
       <Switch>
          <Route path="/" exact component={SignIn} />
