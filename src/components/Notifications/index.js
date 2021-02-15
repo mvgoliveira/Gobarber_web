@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdNotifications } from 'react-icons/md';
 
-import { Container, Badge, NotificationList, Notification } from './styles';
+import { Container, Badge, NotificationList, Notification, Scroll } from './styles';
 
 function Notifications() {
   return (
@@ -11,23 +11,43 @@ function Notifications() {
          </Badge>
 
          <NotificationList>
-            <Notification unread>
-               <p>Você possui um novo agendamento</p>
-               <time>há 2 dias</time>
-               <button type="button">Marcar como lida</button>
-            </Notification>
+            <Scroll>
+               <Notification unread>
+                  <p>Você possui um novo agendamento</p>
+                  <time>há 2 dias</time>
+                  <button type="button">Marcar como lida</button>
+               </Notification>
 
-            <Notification>
-               <p>Você possui um novo agendamento</p>
-               <time>há 2 dias</time>
-               <button type="button">Marcar como lida</button>
-            </Notification>
+               <Notification>
+                  <p>Você possui um novo agendamento</p>
+                  <time>há 2 dias</time>
+                  <button type="button">Marcar como lida</button>
+               </Notification>
 
-            <Notification>
-               <p>Você possui um novo agendamento</p>
-               <time>há 2 dias</time>
-               <button type="button">Marcar como lida</button>
-            </Notification>
+               <Notification>
+                  <p>Você possui um novo agendamento</p>
+                  <time>há 2 dias</time>
+                  <button type="button">Marcar como lida</button>
+               </Notification>
+
+               <Notification>
+                  <p>Você possui um novo agendamento</p>
+                  <time>há 2 dias</time>
+                  <button type="button">Marcar como lida</button>
+               </Notification>
+
+               <Notification>
+                  <p>Você possui um novo agendamento</p>
+                  <time>há 2 dias</time>
+                  <button type="button">Marcar como lida</button>
+               </Notification>
+
+               <Notification>
+                  <p>Você possui um novo agendamento</p>
+                  <time>há 2 dias</time>
+                  <button type="button">Marcar como lida</button>
+               </Notification>
+            </Scroll>
          </NotificationList>
      </Container>
   );
