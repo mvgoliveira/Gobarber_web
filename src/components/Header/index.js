@@ -14,12 +14,18 @@ export default function Header() {
    const firstName = splitedName[0];
    const lastName = splitedName[splitedName.length-1]
    
+   function forceUpdate(location) {
+      if (window.location.pathname === location) {
+         window.location.reload();
+      }
+   }
+
    return (
       <Container>
          <Content>
             <nav>
                <img src={logo} alt=""/>
-               <Link to="/dashboard">DASHBOARD</Link>
+               <Link onClick={() => forceUpdate('/dashboard')} to="/dashboard">DASHBOARD</Link>
             </nav>
 
             <aside>
@@ -27,7 +33,7 @@ export default function Header() {
                <Profile>
                   <div>
                      <strong>{profile.name}</strong>
-                     <Link to="/profile">Meu perfil</Link>
+                     <Link to="/profile" onClick={() => forceUpdate('/profile')} >Meu perfil</Link>
                   </div>
                   
                   <img src={ profile.avatar !== null 
