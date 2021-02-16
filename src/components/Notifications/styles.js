@@ -95,4 +95,19 @@ export const Notification = styled.div`
 export const Scroll = styled(PerfectScrollbar)`
    max-height: 260px;
    padding: 5px 15px;
+
+   ${props => !props.hasNotification && css `
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+
+      p {
+         color: rgba(255, 255, 255, 0.5);
+      
+         &::before {
+            content: 'ainda não há nenhuma notificação';
+         }
+      }
+   `}
 `;

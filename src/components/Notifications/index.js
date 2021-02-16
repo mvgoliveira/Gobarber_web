@@ -12,9 +12,14 @@ function Notifications() {
    const [notifications, setNotifications] = useState([]);
 
    const hasUnread = useMemo(
-         () => !!notifications.find(notification => notification.read === false),
-         [notifications]
-      );
+      () => !!notifications.find(notification => notification.read === false),
+      [notifications]
+   );
+
+   const hasNotification = useMemo(
+      () => !!notifications.find(notification => notification),
+      [notifications]
+   );
 
    useEffect(() => {
       async function loadNotifications() {
@@ -56,7 +61,7 @@ function Notifications() {
          </Badge>
 
          <NotificationList visible={visible}>
-            <Scroll>
+            <Scroll hasNotification={hasNotification}>
                {notifications.map(notification => (
                   <Notification key={notification._id} unread={!notification.read}>
                      <p>{notification.content}</p>
@@ -71,6 +76,8 @@ function Notifications() {
                      )}
                   </Notification>
                ))}
+
+               <p></p>
             </Scroll>
          </NotificationList>
      </Container>
