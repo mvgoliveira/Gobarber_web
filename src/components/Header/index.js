@@ -9,7 +9,11 @@ import logo from '~/assets/headerLogo.svg';
 
 export default function Header() {
    const profile = useSelector(state => state.user.profile);
+   const splitedName = profile.name.split(" ");
 
+   const firstName = splitedName[0];
+   const lastName = splitedName[splitedName.length-1]
+   
    return (
       <Container>
          <Content>
@@ -25,7 +29,13 @@ export default function Header() {
                      <strong>{profile.name}</strong>
                      <Link to="/profile">Meu perfil</Link>
                   </div>
-                  <img src={profile.avatar.url || `https://ui-avatars.com/api/?size=100&name=${profile.name}`} alt=""/>
+                  
+                  <img src={ profile.avatar !== null 
+                     ? profile.avatar.url 
+                     : `https://ui-avatars.com/api/?size=100&name=${firstName}+${lastName}`} 
+                     alt=""
+                  />
+
                </Profile>
             </aside>
          </Content>
