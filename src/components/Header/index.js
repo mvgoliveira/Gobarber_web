@@ -6,7 +6,6 @@ import Notifications from '~/components/Notifications';
 import { Container, Content, Profile } from './styles';
 import logo from '~/assets/headerLogo.svg';
 
-
 export default function index() {
    return (
       <Container>
