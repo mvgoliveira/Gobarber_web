@@ -23,7 +23,6 @@ export const Badge = styled.button`
          background: #eb4034;
       }
    `}
-
 `;
 
 export const NotificationList = styled.div`
