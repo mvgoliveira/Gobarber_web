@@ -15,10 +15,9 @@ A Fase 05 do GoStack 9.0 teve como finalidade a criação da aplicação web, fr
 #### Páginas da aplicação
 
 <img src="https://user-images.githubusercontent.com/53785487/108212836-1d003b00-710d-11eb-8253-96ddacaaadde.png" width="800px"/>
-
-![Tela de cadastro](https://user-images.githubusercontent.com/53785487/108212839-1e316800-710d-11eb-974e-d521d8217ce5.png)
-![Dashboard](https://user-images.githubusercontent.com/53785487/108212842-1e316800-710d-11eb-8e7e-3b3d30e7ae08.png)
-![profile](https://user-images.githubusercontent.com/53785487/108212843-1ec9fe80-710d-11eb-96e7-8026d354e9a1.png)
+<img src="https://user-images.githubusercontent.com/53785487/108212839-1e316800-710d-11eb-974e-d521d8217ce5.png" width="800px"/>
+<img src="https://user-images.githubusercontent.com/53785487/108212842-1e316800-710d-11eb-8e7e-3b3d30e7ae08.png" width="800px"/>
+<img src="https://user-images.githubusercontent.com/53785487/108212843-1ec9fe80-710d-11eb-96e7-8026d354e9a1.png" width="800px"/>
 
 ### 📁 Instalação
 
